@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <title>Birthday Gift</title>  
+  <link href="style.css" type="text/css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <h1>HAPPY BIRTHDAY</h1>
+  <!-- <div class="content">
+    <video class="video_player" id="player" width="100%" controls="controls" autoplay="autoplay">
+      <source src="assets/true_gift.mp4"/>
+      Your browser does not support the HTML5 video tag.  Use a better browser!
+    </video>
+    <img class="gift" src="assets/gift.png" onclick="goFullscreen('player'); return false">
+  </div> -->
+  <img id="myBtn" class="gift" src="assets/gift.png">
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">×</span>
+      <p align="center"><iframe width="800" height="450" src="assets/gift.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+    </div>
+  </div>
+  <script src="function.js"></script>
+</body>
+</html>
